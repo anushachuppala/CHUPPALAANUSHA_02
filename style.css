@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+  font-weight: 600;
+}
+:root {
+  --dark-black: rgb(3, 2, 3);
+  --black: rgb(2, 3, 3);
+  --light-gold: rgb(241, 183, 81);
+  --light-orange: rgb(212, 141, 38);
+}
