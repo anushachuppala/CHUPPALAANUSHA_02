@@ -24,6 +24,7 @@ html {
   --light-orange: rgb(212, 141, 38);
   --white: rgb(255, 255, 255);
   --smokey-gold: rgb(246, 185, 69);
+  --border: rgb(19, 19, 19);
 }
 
 /* basic stylinkg */
@@ -37,7 +38,6 @@ a {
 }
 
 li {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -67,8 +67,6 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--light-gold);
-
-  /* background-color: aqua; */
 }
 
 .navlist {
@@ -93,10 +91,24 @@ body {
   color: var(--white);
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
-  min-height: 100vh;
+  padding-bottom: 10px;
   display: flex-start;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.bg-title {
+  position: absolute;
+  top: 25%;
+  right: -5%;
+  transform: rotate(50deg);
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: rgba(255, 180, 50, 0.08);
+  text-transform: uppercase;
+  z-index: 0;
 }
 
 .image-container {
@@ -136,7 +148,7 @@ h3 {
   font-size: 0.9rem;
   letter-spacing: 5px;
   padding-left: 150px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 h1 {
@@ -175,4 +187,15 @@ span::after {
   background-color: var(--smokey-gold);
   border-radius: 2px;
   transform: rotate(-2deg);
+}
+
+.ordered-list {
+  display: flex;
+  gap: 0.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-left: 30px;
+  padding-top: 24px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  list-style-position: inside;
 }
