@@ -203,7 +203,6 @@ span::after {
 /* About section */
 .about-section {
   color: var(--white);
-  border-right: 5px solid var(--light-orange);
   position: relative;
   font-weight: bold;
 }
