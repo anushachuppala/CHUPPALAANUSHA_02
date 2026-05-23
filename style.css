@@ -310,3 +310,38 @@ span::after {
   text-transform: uppercase;
   margin-top: -10px;
 }
+
+/* movies section */
+.movies {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: var(--light-gold);
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 0.2rem;
+  margin-left: -10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.title-design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.1rem;
+  gap: 2px;
+  width: 100%;
+  transform: translateX(10px);
+}
+
+.line {
+  width: 150px;
+  height: 2px;
+  background-color: var(--light-gold);
+  margin: 0 5px;
+}
+
+.star {
+  font-size: 12px;
+  color: var(--light-gold);
+}
