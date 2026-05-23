@@ -51,9 +51,10 @@ body {
 .container {
   width: 90%;
   max-width: 1400px;
-  height: 900px;
+  height: 1000px;
   background: var(--dark-black);
-  margin-top: 15px;
+  margin: 5px auto;
+  min-height: 100vh;
 }
 
 .logo img {
@@ -344,4 +345,38 @@ span::after {
 .star {
   font-size: 12px;
   color: var(--light-gold);
+}
+
+.movie-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.movie-card img {
+  width: 150px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.movie-name {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 0.8rem;
+  margin-left: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--light-gold);
+}
+
+.movie-year {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 0.8rem;
+  border-radius: 300px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
 }
