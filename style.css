@@ -392,7 +392,7 @@ span::after {
 
 .timeline {
   width: 90%;
-  margin: 80px auto;
+  margin: 40px auto;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -461,7 +461,7 @@ span::after {
   margin-top: 10px;
   color: var(--white);
   font-family: "Oswald", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5;
   text-transform: capitalize;
 }
