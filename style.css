@@ -26,6 +26,7 @@ html {
   --white: rgb(255, 255, 255);
   --smokey-gold: rgb(246, 185, 69);
   --border: rgb(19, 19, 19);
+  --beyond: rgb(71, 63, 37);
 }
 
 /* basic stylinkg */
@@ -470,4 +471,16 @@ span::after {
   font-size: 17px;
   line-height: 1.5;
   text-transform: capitalize;
+}
+
+/* beyond section */
+.beyond-container {
+  width: 90%;
+  height: 100vh;
+  margin-left: 68px;
+  border-radius: 5px;
+  border: 5px solid var(--light-orange);
+}
+
+.beyond-card {
 }
