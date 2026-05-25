@@ -320,7 +320,8 @@ span::after {
 }
 
 .movies,
-.journey {
+.journey,
+.beyond {
   text-align: center;
   font-family: "Oswald", sans-serif;
   color: var(--light-gold);
@@ -390,6 +391,10 @@ span::after {
 
 /* timeline- section */
 
+.timeline-section {
+  border-bottom: 2px solid var(--border);
+}
+
 .timeline {
   width: 90%;
   margin: 40px auto;
@@ -458,6 +463,7 @@ span::after {
 }
 
 .timeline-item p {
+  width: 100%;
   margin-top: 10px;
   color: var(--white);
   font-family: "Oswald", sans-serif;
