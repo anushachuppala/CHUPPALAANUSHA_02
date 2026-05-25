@@ -483,4 +483,6 @@ span::after {
 }
 
 .beyond-card {
+  display: flex;
+  align-items: flex-start;
 }
