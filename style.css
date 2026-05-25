@@ -413,11 +413,25 @@ span::after {
   position: relative;
   width: 220px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon {
-  display: block;
-  font-size: 28px;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  font-size: 45px;
+  color: var(--light-gold);
+  margin-bottom: 15px;
+}
+
+.crown-icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  font-size: 45px;
   color: var(--light-gold);
   margin-bottom: 15px;
 }
@@ -435,7 +449,7 @@ span::after {
 
 .timeline-item a {
   display: block;
-  margin-top: 40px;
+  margin-top: 27px;
   color: var(--light-gold);
   font-family: "Oswald", sans-serif;
   text-decoration: none;
@@ -447,7 +461,7 @@ span::after {
   margin-top: 10px;
   color: var(--white);
   font-family: "Oswald", sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.5;
   text-transform: capitalize;
 }
