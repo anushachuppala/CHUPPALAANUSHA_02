@@ -26,7 +26,7 @@ html {
   --white: rgb(255, 255, 255);
   --smokey-gold: rgb(246, 185, 69);
   --border: rgb(19, 19, 19);
-  --beyond: rgb(71, 63, 37);
+  --brown: rgb(71, 63, 37);
 }
 
 /* basic stylinkg */
@@ -392,10 +392,6 @@ span::after {
 
 /* timeline- section */
 
-.timeline-section {
-  border-bottom: 2px solid var(--border);
-}
-
 .timeline {
   width: 90%;
   margin: 40px auto;
@@ -478,11 +474,18 @@ span::after {
   width: 90%;
   height: 100vh;
   margin-left: 68px;
+  margin-top: 10px;
   border-radius: 5px;
-  border: 5px solid var(--light-orange);
+  border: 2px solid var(--brown);
 }
 
 .beyond-card {
   display: flex;
   align-items: flex-start;
+}
+
+.feature-icon {
+  width: 30px;
+  height: auto;
+  color: var(--light-gold);
 }
