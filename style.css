@@ -472,20 +472,48 @@ span::after {
 /* beyond section */
 .beyond-container {
   width: 90%;
-  height: 100vh;
-  margin-left: 68px;
-  margin-top: 10px;
-  border-radius: 5px;
+  margin: 20px auto;
   border: 2px solid var(--brown);
+  border-radius: 5px;
+  padding: 30px;
+  background-color: var(--border);
+}
+
+.screen-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .beyond-card {
-  display: flex;
-  align-items: flex-start;
+  flex: 1;
+  text-align: center;
 }
 
 .feature-icon {
-  width: 30px;
-  height: auto;
+  width: 60px;
+  height: 60px;
   color: var(--light-gold);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.heading {
+  color: var(--light-gold);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+}
+
+.info {
+  color: var(--white);
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1.8;
 }
