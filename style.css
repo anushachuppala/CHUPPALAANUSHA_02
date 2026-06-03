@@ -520,10 +520,6 @@ span::after {
 
 /* footer section */
 
-footer {
-  border: 3px solid yellow;
-}
-
 .footer-container {
   display: flex;
   align-items: center;
@@ -541,7 +537,20 @@ footer {
   color: var(--white);
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
+  margin-left: 60px;
+  margin-right: 70px;
   font-weight: 400;
-  letter-spacing: 3px;
-  /* row-gap: 90px; */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  transform: translateX(70px);
+}
+
+.footer-right {
+  color: var(--white);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+  text-transform: capitalize;
+  transform: translateX(100px);
 }
