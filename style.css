@@ -518,7 +518,30 @@ span::after {
   line-height: 1.8;
 }
 
-.footer-container img {
-  margin-top: 5px;
-  margin-left: 50px;
+/* footer section */
+
+footer {
+  border: 3px solid yellow;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.logo {
+  margin-top: 0;
+  margin-left: 60px;
+  width: 170px;
+  height: auto;
+}
+
+.footer-middle {
+  color: var(--white);
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 3px;
+  /* row-gap: 90px; */
 }
