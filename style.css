@@ -104,14 +104,14 @@ body {
 .bg-title {
   position: absolute;
   top: 25%;
-  right: -5%;
-  transform: rotate(50deg);
+  right: -1%;
+  transform: rotate(-25deg);
   font-size: 70px;
   font-weight: 800;
   letter-spacing: 1px;
   color: rgba(255, 180, 50, 0.08);
   text-transform: uppercase;
-  z-index: 0;
+  z-index: 1;
 }
 
 .image-container {
@@ -123,6 +123,7 @@ body {
   top: 0;
   right: 0;
   padding-top: 0;
+  z-index: 2;
 }
 
 .image-container::before {
