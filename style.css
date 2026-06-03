@@ -65,6 +65,10 @@ body {
   display: block;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .navbar-container {
   display: flex;
   align-items: center;
@@ -570,4 +574,33 @@ span::after {
   margin-right: 5px;
   text-transform: capitalize;
   transform: translateX(100px);
+}
+
+/* MEdia Quieries */
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+      margin-right: 20px;
+      font-size: 0.8rem;
+      color: var(--white);
+    }
+
+    .navlist {
+      display: none;
+    }
+
+    .navlist.active {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
