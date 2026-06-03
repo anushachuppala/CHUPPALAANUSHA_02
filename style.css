@@ -47,12 +47,13 @@ li {
 body {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
+
 .container {
   width: 90%;
   max-width: 1400px;
-  height: 2000px;
+  height: auto;
   background: var(--dark-black);
   margin: 5px auto;
   min-height: 100vh;
