@@ -517,3 +517,8 @@ span::after {
   font-size: 14px;
   line-height: 1.8;
 }
+
+.footer-container img {
+  margin-top: 5px;
+  margin-left: 50px;
+}
